@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --famla-navy:#0C2340;
+  --famla-green-dark:#002D0F;
+  --famla-green:#007774;
+  --famla-green-hover:#005C5A;
+  --famla-red:#E63946;
+}
+
+@layer base {
+  html {
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+  
+  body {
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+@layer components {
+  .font-display {
+    font-family: var(--font-inter);
+    font-weight: 700;
+    letter-spacing: -0.025em;
+    line-height: 1.1;
+  }
+  
+  .font-body {
+    font-family: var(--font-inter);
+    line-height: 1.6;
+  }
+  
+  .font-mono {
+    font-family: var(--font-jetbrains-mono);
+  }
+  
+  .text-balance {
+    text-wrap: balance;
+  }
+}

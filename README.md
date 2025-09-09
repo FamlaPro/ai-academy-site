@@ -1,0 +1,1 @@
+Famla AI Academy site - see app/page.tsx for content
