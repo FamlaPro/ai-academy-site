@@ -225,13 +225,13 @@ export default function FamlaAIAcademyLanding() {
       {/* Outcomes */}
       <section className="bg-[#002D0F] text-white py-16 px-6 border-t-4 border-[#007774]">
         <h2 className="text-3xl lg:text-4xl font-display text-center mb-10 text-balance">
-          What You'll Gain
+          What You&apos;ll Gain
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 max-w-5xl mx-auto text-center">
           <div>
             <BookOpen className="w-10 h-10 mx-auto mb-4 text-[#007774]" />
             <p className="font-body text-balance">
-              Clarity on AI's real impact
+              Clarity on AI&apos;s real impact
             </p>
           </div>
           <div>
